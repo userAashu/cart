@@ -1,10 +1,77 @@
-.App {
-  text-align: center;
+*{
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.extra-nav{
+  text-align: right;
+}
+
+ul{
+  background-color: skyblue;
+  padding: 5px;
+  margin: 10px;
+}
+
+.nav-ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+
+h3{
+  position: absolute;
+  bottom: 0;
+  background-color: skyblue;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+.divBox{
+  background-color: #282c34;
+  margin-left: 30%;
+  margin-right: 70%;
+}
+
+.inputBox{
+  background-color: aqua;
+  color: black;
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: #282c34 solid 1px;
+}
+
+.appButton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.login{
+  background-color: #282c34;
+  margin-left: 30%;
+  margin-right: 70%;
+}
+
+.ft{
+  color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +102,83 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  margin: 0 0.5em;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.product {
+  background-color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1em;
+  padding: 1em;
+  width: 400px;
+  color: white;
+  text-align: center;
+}
+
+.white{
+  color: white;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn{
+  background-color: #61dafb;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+  margin-right: 80%;
+}
+
+.bg-c{
+  background-color: #333;
 }
